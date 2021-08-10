@@ -795,7 +795,18 @@ li h3{
 
 }
 
+@media(max-width: 950px){
+	.wrapper-2{
+		margin: 0 auto;
+		margin-left: 300px;
+	}
+}
+
 @media(max-width: 768px){
+	.wrapper-5, .cards, .wrapper-6{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
 	.wrapper-2{
 		width: 80%;
 		margin-left: 140px;
