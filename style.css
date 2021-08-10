@@ -846,14 +846,13 @@ li h3{
 	.nav-right{
 		display: none;
 	}
-	.header{
+	header{
 		z-index:9999;
 	}
 
 	.container-2{
 		background: url("img/small-bg.jpg") no-repeat center center/cover;
 		position: relative;
-		z-index:99;
 	}
 
 	.container-2::before{
