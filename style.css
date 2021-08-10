@@ -851,6 +851,7 @@ li h3{
 	.container-2{
 		background: url("img/small-bg.jpg") no-repeat center center/cover;
 		position: relative;
+		z-index:99;
 	}
 
 	.container-2::before{
