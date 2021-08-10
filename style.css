@@ -846,7 +846,9 @@ li h3{
 	.nav-right{
 		display: none;
 	}
-
+	.header{
+		z-index:9999;
+	}
 
 	.container-2{
 		background: url("img/small-bg.jpg") no-repeat center center/cover;
@@ -873,7 +875,7 @@ li h3{
 		margin-left: 30px;
 		padding-top: 30px;
 		position: relative;
-		z-index: 9999;
+		z-index: 99;
 	}
 	.wrapper-2 h1{
 		font-size: 1.4rem;
